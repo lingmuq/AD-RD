@@ -1,9 +1,9 @@
-conda create -n AD-RD
-conda install pytorch==1.9.1 torchvision==0.10.1 torchaudio==0.9.1 -c pytorch
-conda install matplotlib
-conda install scikit-learn
-conda install -c conda-forge opencv
-conda install scipy
-conda install pillow
-conda install scikit-image
-conda install pandas
+# conda create -n AD-RD python=3.8  # for python3.8
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121   # for cuda12.1
+# conda install matplotlib
+# conda install scikit-learn
+# pip install opencv-python # not conda but pip
+# conda install scipy
+# conda install pillow
+# conda install scikit-image
+# conda install pandas
